@@ -1,0 +1,128 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#Scenario: Verify home page title"
+          },
+          {
+            "line": 5,
+            "value": "#Given I am on \"http://127.0.0.1/\""
+          },
+          {
+            "line": 6,
+            "value": "#Then I should see \"Sogeti Book Shop\""
+          },
+          {
+            "line": 10,
+            "value": "#Scenario: Verify home page title"
+          },
+          {
+            "line": 12,
+            "value": "#Given I am on \"http://127.0.0.1/\""
+          },
+          {
+            "line": 13,
+            "value": "#When I click on ContactUsLink"
+          },
+          {
+            "line": 14,
+            "value": "#Then I should see \"Contact us\""
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 11128911702,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify home page title",
+        "description": "",
+        "id": ";verify-home-page-title",
+        "after": [
+          {
+            "result": {
+              "duration": 1098493343,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4438465957,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am on \"http://127.0.0.1/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://127.0.0.1/",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefHomePage.i_am_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3079684552,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on \"Contact us\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contact us",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefHomePage.i_click_on(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 171900085,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should see \"Contact us\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contact us",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefHomePage.i_should_see(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "HomePage.feature"
+  }
+]
